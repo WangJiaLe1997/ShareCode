@@ -21,6 +21,9 @@
     import MainContainer from './components/MainContainer.vue'   
     export default {
       name: '',
+      components:{
+        MainContainer
+      },
       setup() {
         
       },
@@ -81,6 +84,7 @@
   .Main {
     flex: 1; /* 使 Main 占据剩余的高度 */
     background-color: #FFFFFF; /* 可以设置背景颜色以便观察效果 */
+    margin: 2em;
   }
   
   .Footer {
